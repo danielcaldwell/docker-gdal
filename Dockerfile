@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 #RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV GDAL_VERSION 2.1.3
+ENV GDAL_VERSION 2.2.1
 ENV FILEGDBLIB_VERSION 1.5
 ENV FILEGDBLIB_FILENAME FileGDB_API_1_5_64gcc51
 ENV FILEGDBLIB_DIRNAME FileGDB_API-64gcc51
